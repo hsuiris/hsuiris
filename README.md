@@ -49,7 +49,7 @@ Building AI tools for self-awareness, and writing tech notes anyone can read.
     <td width="50%" valign="top">
       <a href="https://github.com/hsuiris/tech-notes"><img src="assets/tech-notes.jpg" alt="tech-notes 的架構圖、專案資料夾與多代理協作頁面"></a>
       <h3><a href="https://github.com/hsuiris/tech-notes">tech-notes</a></h3>
-      <p>給看不懂術語的人的 IT 白話筆記。看懂架構圖、錯誤訊息、專案資料夾，圖上的方塊都可以點開看說明。</p>
+      <p>給科技初學者的圖解筆記。八個主題涵蓋網站架構、錯誤訊息、AI 協作、系統設計與機器學習。架構圖上的元件可以點選，查看各自的職責與請求流程。</p>
       <p><a href="https://hsuiris.github.io/tech-notes/">線上網站</a> · HTML · CSS · JavaScript</p>
     </td>
   </tr>

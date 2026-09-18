@@ -2,9 +2,9 @@
 
 # 韻琴 Iris
 
-Building AI tools for self-awareness, and writing tech notes anyone can read.
+Building AI tools for self-awareness, and testing whether they tell the truth.
 
-對諮商心理、人機互動與機器學習有興趣，正在開發支援心理覺察的 AI 互動工具。
+對諮商心理、人機互動與機器學習有興趣。做心理覺察的 AI 工具，也做研究去驗證這些工具有沒有在亂講。
 
 </div>
 
@@ -13,48 +13,50 @@ Building AI tools for self-awareness, and writing tech notes anyone can read.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/hsuiris/tomo-tutor-match"><img src="assets/tomo.jpg" alt="Tomo 家教媒合平台的首頁、老師檔案與私訊畫面"></a>
+      <a href="https://github.com/hsuiris/heartu"><img src="assets/heartu.jpg" alt="HeartU 的首頁、危機求助卡與日誌畫面"></a>
+      <h3><a href="https://github.com/hsuiris/heartu">HeartU</a></h3>
+      <p>心理覺察 App。報告只能引用日誌原文的逐字片段，引用在本機驗證，對不上就不顯示。附本機危機偵測與台灣求助專線。</p>
+      <p>React Native · Expo · 33 個畫面 · 111 項測試</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hsuiris/insight-faithfulness"><img src="assets/insight-faithfulness.jpg" alt="六個模型的忠實度比較圖表"></a>
+      <h3><a href="https://github.com/hsuiris/insight-faithfulness">跨週自我覺察報告的忠實度</a></h3>
+      <p>給模型一位三週毫無變化的虛構人物，看它會不會硬講出變化。六個模型、70 份報告、695 個主張，全自動評分。</p>
+      <p>研究 · LLM 評估 · Node.js</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hsuiris/psych-knowledge-graph"><img src="assets/psych-knowledge-graph.jpg" alt="心理諮商知識圖譜首頁"></a>
+      <h3><a href="https://github.com/hsuiris/psych-knowledge-graph">心理諮商知識圖譜</a></h3>
+      <p>60 個諮商與臨床心理學概念、78 條關係。點一個概念看說明，沿著關係往下探索。</p>
+      <p><a href="https://hsuiris.github.io/psych-knowledge-graph/">線上網站</a> · Next.js · TypeScript</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hsuiris/tomo-tutor-match"><img src="assets/tomo.jpg" alt="Tomo 家教媒合平台截圖"></a>
       <h3><a href="https://github.com/hsuiris/tomo-tutor-match">Tomo 家教媒合平台</a></h3>
-      <p>家長發布家教需求、老師應徵，雙方可以比較條件、私訊和互評，另外有管理後台和時薪行情統計。</p>
+      <p>家長發布需求、老師應徵，雙方可以比較條件、私訊和互評，另有管理後台與時薪行情統計。</p>
       <p><a href="https://tutor-match-mu.vercel.app">線上網站</a> · Next.js · Prisma · PostgreSQL</p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hsuiris/comfyblend"><img src="assets/comfyblend.jpg" alt="ComfyBlend.AI 首頁"></a>
-      <h3><a href="https://github.com/hsuiris/comfyblend">ComfyBlend.AI</a></h3>
-      <p>把生成角色、四視圖、Blender 場景、插畫合成與風格轉換放進同一個網頁工作台，本機接 Stable Diffusion Forge 和 BlenderMCP 使用。</p>
-      <p><a href="https://hsuiris.github.io/comfyblend/">線上看介面</a> · JavaScript · Python · Blender</p>
-    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/hsuiris/gre-vocab"><img src="assets/gre-vocab.jpg" alt="GRE Vocab App 的三個畫面"></a>
-      <h3><a href="https://github.com/hsuiris/gre-vocab">GRE Vocab</a></h3>
-      <p>GRE 單字複習 App，有選擇題、句子填空、手寫拼字，用 Leitner 盒子排複習時間，五個盒子的間隔從 1 天拉長到 14 天。</p>
-      <p>Expo · React Native · TypeScript</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hsuiris/titanic-ml-api"><img src="assets/titanic-ml-api.jpg" alt="Titanic ML API 的資料管理、模型訓練與預測畫面"></a>
+      <a href="https://github.com/hsuiris/titanic-ml-api"><img src="assets/titanic-ml-api.jpg" alt="Titanic ML API 的資料管理與模型訓練畫面"></a>
       <h3><a href="https://github.com/hsuiris/titanic-ml-api">Titanic ML API</a></h3>
-      <p>用鐵達尼號資料集做的 RESTful API 和儀表板，從資料 CRUD、特徵工程、五種模型比較，一路做到生還預測。</p>
-      <p>Flask · scikit-learn · XGBoost · SQLite</p>
+      <p>從資料 CRUD、特徵工程、五種模型比較，一路做到生還預測的 RESTful API 與儀表板。</p>
+      <p>Flask · scikit-learn · XGBoost</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hsuiris/tech-notes"><img src="assets/tech-notes.jpg" alt="tech-notes 首頁"></a>
       <h3><a href="https://github.com/hsuiris/tech-notes">tech-notes</a></h3>
-      <p>給看不懂術語的人的 IT 白話筆記，教你看懂架構圖、錯誤訊息和專案資料夾，圖上的方塊都可以點開看說明。</p>
+      <p>給看不懂術語的人的 IT 白話筆記。看懂架構圖、錯誤訊息、專案資料夾，圖上的方塊都可以點開看說明。</p>
       <p><a href="https://hsuiris.github.io/tech-notes/">線上網站</a> · HTML · CSS · JavaScript</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hsuiris/python-data-analysis-hw"><img src="assets/python-data-analysis-hw.jpg" alt="Python 資料分析作業的批改結果與 Plotly 儀表板"></a>
-      <h3><a href="https://github.com/hsuiris/python-data-analysis-hw">Python 資料分析作業</a></h3>
-      <p>資料分析課 M1 到 M6 的作業，內容涵蓋 NumPy、pandas、時間序列和視覺化，GitHub Actions 自動批改拿到 600／600。</p>
-      <p>Python · pandas · Plotly · pytest</p>
     </td>
   </tr>
 </table>
 
+其他：[GRE 單字 App](https://github.com/hsuiris/gre-vocab)（離線優先、3192 個字）、[ComfyBlend.AI](https://github.com/hsuiris/comfyblend)（AI 生產線工作台）、[Python 資料分析作業](https://github.com/hsuiris/python-data-analysis-hw)。
+
 ## 常用技術
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)

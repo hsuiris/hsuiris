@@ -2,9 +2,9 @@
 
 # 韻琴 Iris
 
-Building AI tools for self-awareness, and testing whether they tell the truth.
+Building AI tools for self-awareness, and writing tech notes anyone can read.
 
-對諮商心理、人機互動與機器學習有興趣。做心理覺察的 AI 工具，也做研究去驗證這些工具有沒有在亂講。
+對諮商心理、人機互動與機器學習有興趣，正在開發支援心理覺察的 AI 互動工具。
 
 </div>
 
@@ -15,13 +15,13 @@ Building AI tools for self-awareness, and testing whether they tell the truth.
     <td width="50%" valign="top">
       <a href="https://github.com/hsuiris/heartu"><img src="assets/heartu.jpg" alt="HeartU 的首頁、危機求助卡與日誌畫面"></a>
       <h3><a href="https://github.com/hsuiris/heartu">HeartU</a></h3>
-      <p>心理覺察 App。報告只能引用日誌原文的逐字片段，引用在本機驗證，對不上就不顯示。附本機危機偵測與台灣求助專線。</p>
+      <p>心理覺察 App。報告只能引用日誌原文的逐字片段，引用在本機驗證，無法對應原文的內容不予顯示。內建本機危機偵測與台灣求助專線。</p>
       <p>React Native · Expo · 33 個畫面 · 111 項測試</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/hsuiris/insight-faithfulness"><img src="assets/insight-faithfulness.jpg" alt="六個模型的忠實度比較圖表"></a>
       <h3><a href="https://github.com/hsuiris/insight-faithfulness">跨週自我覺察報告的忠實度</a></h3>
-      <p>給模型一位三週毫無變化的虛構人物，看它會不會硬講出變化。六個模型、70 份報告、695 個主張，全自動評分。</p>
+      <p>以一位三週日誌沒有方向性變化的虛構人物為對照組，量測模型是否仍宣稱有變化。六個模型、70 份報告、695 個主張，全自動評分。</p>
       <p>研究 · LLM 評估 · Node.js</p>
     </td>
   </tr>
@@ -29,7 +29,7 @@ Building AI tools for self-awareness, and testing whether they tell the truth.
     <td width="50%" valign="top">
       <a href="https://github.com/hsuiris/psych-knowledge-graph"><img src="assets/psych-knowledge-graph.jpg" alt="心理諮商知識圖譜首頁"></a>
       <h3><a href="https://github.com/hsuiris/psych-knowledge-graph">心理諮商知識圖譜</a></h3>
-      <p>60 個諮商與臨床心理學概念、78 條關係。點一個概念看說明，沿著關係往下探索。</p>
+      <p>60 個諮商與臨床心理學概念、78 條關係。點選概念可查看說明，並沿著關係探索相連的知識。</p>
       <p><a href="https://hsuiris.github.io/psych-knowledge-graph/">線上網站</a> · Next.js · TypeScript</p>
     </td>
     <td width="50%" valign="top">
@@ -43,7 +43,7 @@ Building AI tools for self-awareness, and testing whether they tell the truth.
     <td width="50%" valign="top">
       <a href="https://github.com/hsuiris/titanic-ml-api"><img src="assets/titanic-ml-api.jpg" alt="Titanic ML API 的資料管理與模型訓練畫面"></a>
       <h3><a href="https://github.com/hsuiris/titanic-ml-api">Titanic ML API</a></h3>
-      <p>從資料 CRUD、特徵工程、五種模型比較，一路做到生還預測的 RESTful API 與儀表板。</p>
+      <p>涵蓋資料 CRUD、特徵工程、五種模型比較與生還預測的 RESTful API 與儀表板。</p>
       <p>Flask · scikit-learn · XGBoost</p>
     </td>
     <td width="50%" valign="top">

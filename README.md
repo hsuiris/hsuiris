@@ -47,7 +47,7 @@ Building AI tools for self-awareness, and writing tech notes anyone can read.
       <p>Flask · scikit-learn · XGBoost</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/hsuiris/tech-notes"><img src="assets/tech-notes.jpg" alt="tech-notes 首頁"></a>
+      <a href="https://github.com/hsuiris/tech-notes"><img src="assets/tech-notes.jpg" alt="tech-notes 的架構圖、專案資料夾與多代理協作頁面"></a>
       <h3><a href="https://github.com/hsuiris/tech-notes">tech-notes</a></h3>
       <p>給看不懂術語的人的 IT 白話筆記。看懂架構圖、錯誤訊息、專案資料夾，圖上的方塊都可以點開看說明。</p>
       <p><a href="https://hsuiris.github.io/tech-notes/">線上網站</a> · HTML · CSS · JavaScript</p>

@@ -41,7 +41,7 @@ Building AI tools for self-awareness, and writing tech notes anyone can read.
   </tr>
 </table>
 
-其他：[GRE 單字 App](https://github.com/hsuiris/gre-vocab)（離線優先、3192 個字）、[ComfyBlend.AI](https://github.com/hsuiris/comfyblend)（AI 生產線工作台）、[Python 資料分析作業](https://github.com/hsuiris/python-data-analysis-hw)。
+其他：[Python 資料分析作業](https://github.com/hsuiris/python-data-analysis-hw)。
 
 ## 常用技術
 
